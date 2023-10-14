@@ -2,6 +2,16 @@
 
 ## Academia Desafío Latam | Bootcamp Fullstack con JavaScript - G41
 
+### Tabla de contenidos
+
+- [Demostración](#demostración)
+  - [Vista previa](#vista-previa)
+  - [Video de demostración](#video-de-demostración)
+- [Guía para obtener un token de acceso](#guía-para-obtener-un-token-de-acceso)
+  - [1. Crear una cuenta en TMDb](#1-crear-una-cuenta-en-tmdb)
+  - [2. Generar un token de acceso](#2-generar-un-token-de-acceso)
+  - [3. Guarda el token en las variable de entorno](#3-guarda-el-token-en-las-variable-de-entorno)
+
 ![banner](./src/assets/og-image.jpg)
 
 ### Demostración
@@ -32,7 +42,7 @@ Para ejecutar el proyecto es necesario crear una cuenta en el sitio de TMDb (usa
 
 #### 3. Guarda el token en las variable de entorno
 
-- Modifica el valor de VITE_API_TOKEN en el archivo `.env.example`, reemplazando "YOUR_TOKEN" por tu token de acceso para la API.
+- Modifica el valor de `VITE_API_TOKEN` en el archivo `.env.example`, reemplazando "YOUR_TOKEN" por tu token de acceso para la API.
 - Renombra el archivo `.env.example` como `.env`
 
 Listo, la aplicación está lista para ejecutarse.
