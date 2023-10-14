@@ -1,0 +1,15 @@
+.header {
+  background-color: var(--color-grey-2);
+  padding: 0.5em;
+}
+
+.container--header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5em;
+}
+
+.header__title-logo {
+  width: 6.4rem;
+}

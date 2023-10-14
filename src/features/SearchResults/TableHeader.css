@@ -1,0 +1,25 @@
+.table__header {
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+  margin-bottom: 1em;
+  border-bottom: 1px solid #c5c5c5;
+}
+
+.table__header,
+.table__body td {
+  padding: 0.25em 0.5em;
+}
+
+.table__header-text {
+  color: var(--color-highlight-2);
+  transition: color 0.15s ease-in;
+}
+
+.sortable:hover {
+  color: var(--color-grey-1);
+}
+
+.table__header-icon {
+  color: var(--color-primary);
+}

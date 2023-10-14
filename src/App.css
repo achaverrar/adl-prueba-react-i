@@ -1,0 +1,4 @@
+.section-title--main {
+  padding-left: 0.15em;
+  border-left: 0.1em solid var(--color-primary);
+}

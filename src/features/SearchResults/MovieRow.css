@@ -1,0 +1,7 @@
+.table__row {
+  transition: background-color 0.15s ease-in;
+}
+
+.table__row:hover {
+  background-color: #f1f1f1;
+}

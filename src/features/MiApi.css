@@ -1,0 +1,17 @@
+.container--main {
+  max-width: 120rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.search-results__title,
+.search-results__instructions {
+  font-size: 3em;
+  align-self: stretch;
+}
+
+.search-results__instructions {
+  text-align: center;
+}

@@ -1,0 +1,8 @@
+.nav {
+  color: var(--color-highlight-1);
+}
+
+.nav__list {
+  display: flex;
+  gap: 0.5em;
+}

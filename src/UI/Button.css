@@ -1,0 +1,29 @@
+.button {
+  display: block;
+  padding: 0.5em;
+  border-radius: 0.35em;
+  font-weight: 700;
+  border: none;
+  background-color: #222222;
+}
+
+.button:hover {
+  background-color: #262b32;
+}
+
+.button--yellow {
+  background-color: var(--color-primary);
+  color: var(--color-highlight-2);
+}
+
+.button--yellow:hover {
+  background-color: #e2b616;
+}
+
+.button--dark {
+  color: var(--color-highlight-1);
+}
+
+.button--dark:hover {
+  background-color: var(--color-grey-1);
+}

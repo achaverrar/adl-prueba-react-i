@@ -1,0 +1,29 @@
+.container--results {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-results {
+  flex: 1;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.search-results__results {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.search-results__not-found {
+  font-size: 3.2rem;
+}
